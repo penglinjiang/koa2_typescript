@@ -41,3 +41,14 @@
 ```
 
 ## 项目运行
+
+* 1、使用git clone https://github.com/penglinjiang/koa2_typescript.git将框架克隆到本地,或者下载解压到指定目录
+* 2、然后进入koa2_typescript/目录，执行tsc命令
+* 3、执行tsc命令后会在同目录下生成build/文件夹，build文件夹即是ts文件经过typeScript编译生成的可执行js文件
+* 4、执行node build/app.js即可运行项目
+
+## 后续
+后续希望是项目包含面广一点，尽量包含一下
+* 操作mongodb
+* redis操作、实现消息队列
+* mysql的事务操作
