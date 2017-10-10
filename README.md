@@ -3,8 +3,8 @@
 
 ## 运行需求
 * node version >= 7.6.0
-* 需要在本地安装redis-server
-* 需要在本地安装mysql、5.2+
+* 需要在本地安装redis-server或者修改配置连接到你想连接的服务器
+* 需要在本地安装mysql、5.2+ 或者修改配置连接到其他
 * 需全局安装TypeScript，TypeScript >= 2.x
 
 ## 目录结构
