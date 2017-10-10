@@ -1,0 +1,28 @@
+{
+  "name": "addressbook",
+  "version": "1.0.0",
+  "description": "a RESETful API for an AddressBook app",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "node.js",
+    "RESETful",
+    "API"
+  ],
+  "author": "plj",
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^3.1.4",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-log4": "^2.2.1",
+    "koa-router": "^7.2.1",
+    "koa-session2": "^2.2.5",
+    "mysql": "^2.14.1",
+    "path": "^0.12.7",
+    "typescript": "^2.5.2",
+    "uid-safe": "^2.1.5"
+  }
+}
