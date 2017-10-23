@@ -10,6 +10,6 @@ import video_schema from './video_schema';
 
 const conn = mongoose.createConnection(`mongodb://${CONFIG.mongodb.host}:${CONFIG.mongodb.port}/${CONFIG.mongodb.db}`);
 const Videos = conn.model('Videos', video_schema);
-Promise.promisifyAll(Videos);
+//Promise.promisifyAll(Videos);
 
 export default Videos;

@@ -17,6 +17,7 @@ import SessionStore from './utils/session';
 import user from './routers/user';
 import login from './routers/login';
 import contact from './routers/contact';
+import video from './routers/video';
 
 /**
  * a middleware to record the time consuming and url of every request
@@ -44,7 +45,10 @@ app.use(Session({
 }));
 
 //load router
-app.use(user.routes()).use(user.allowedMethods()).use(login.routes()).use(login.allowedMethods()).use(contact.routes()).use(contact.allowedMethods());
+app.use(user.routes()).use(user.allowedMethods())
+   .use(login.routes()).use(login.allowedMethods())
+   .use(contact.routes()).use(contact.allowedMethods())
+   .use(video.routes()).use(video.allowedMethods());
 
 app.use(async (ctx) => {
     if (ctx.status !== 200) {

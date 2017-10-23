@@ -15,15 +15,18 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
     "ioredis": "^3.1.4",
     "koa": "^2.3.0",
     "koa-bodyparser": "^4.2.0",
     "koa-log4": "^2.2.1",
     "koa-router": "^7.2.1",
     "koa-session2": "^2.2.5",
-    "mongoose": "^4.12.1",
+    "mongoose": "^4.12.3",
     "mysql": "^2.14.1",
     "path": "^0.12.7",
+    "request": "^2.83.0",
     "typescript": "^2.5.2",
     "uid-safe": "^2.1.5"
-  }}
+  }
+}

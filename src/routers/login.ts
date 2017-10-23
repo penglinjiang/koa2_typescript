@@ -29,7 +29,7 @@ router.post('/session', async (ctx) => {
         if (userList.length === 0 || !userList) {
             return ctx.body = {code: 1002, message: 'username or password is wrong, please check'}
         }
-        console.log(3333333, userList, userName, pwd);
+
         if (userList.length > 0 && userList[0].pwd === pwd){
             ctx.session.uid = userList[0].id;
             return ctx.body = {code: 0, message: 'success'}

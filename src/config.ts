@@ -47,5 +47,6 @@ export default {
     listenPort: listenPort,
     redis: redis,
     mysql: mysql,
-    mongodb: mongodb
+    mongodb: mongodb,
+    videoSites: videoSites
 };
